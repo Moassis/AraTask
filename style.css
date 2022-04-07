@@ -1,0 +1,63 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+.container{
+  max-width:100%;
+  padding:auto;
+  margin:auto;
+}
+
+.image{
+  width:100%;
+  position:absolute;
+  z-index: -1;
+  opacity: 96%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a:active {
+  background-color: black;
+  color: white;
+}
+
+.products {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;  
+}
+
+.products span{
+  font-size: smaller;
+  color: red;
+}
+
+.products h2{
+  text-align:center;
+}
